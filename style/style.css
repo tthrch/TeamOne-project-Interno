@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* логотип Interno */
+.logo-title {
+    font-family: "Romana LT Demi", serif;
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 169px;
+    margin-top: 40px;
+}
+
+.logo-title::before {
+    content: "";
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background-image: url("../src/icons/before-logo.png");
+    background-size: contain;
+    margin-right: 11px;
+}
+/* навігаціний список */
+.header-menu {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    width: 538px;
+    height: 62px;
+    margin-left: 830px;
+    top: 0;
+    margin-top: 50px;
+    font-family: 'Jost', sans-serif;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu a:hover {
+    color: #CDA274;
+}
+
+.dreamInterior {
+    background-image: url("../src/images/living-room.webp");
+    height: 831px;
+    background-repeat: no-repeat;
+    padding-top: 188px;
+}
+
+.dreamInterior-title {
+    margin-left: 120px;
+    font-family: 'DM Serif Display', serif;
+    width: 595px;
+    height: 192px;
+    font-size: 80px;
+    color: #292F36;
+    margin-bottom: 19px;
+}
+
+.dreamInterior-text {
+    font-family: 'Jost', sans-serif;
+    margin-left: 120px;
+    font-size: 22px;
+}
+/* button */
+.dreamInterior-button {
+    background-color: #292F36;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 22px 34px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    margin-left: 120px;
+    width: 207px;
+    height: 71px;
+    font-size: 18px;
+}
+
+.dreamInterior-button:hover {
+    background-color: #3a3a3a;
+}
+
+.dreamInterior-button::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    background-image: url("../src/icons/arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 18px;
+    margin-left: 27px;
+}
