@@ -284,7 +284,7 @@ body {
     position: relative;
 }
 
-.responsel-img {
+.response-img {
     width: 77px;
     height: 77px;
     border-radius: 50%;
@@ -299,7 +299,7 @@ body {
     font-size: 25px;
     font-weight: 400;
     color: #292f36;
-     margin: 0 0 5px 0;
+    margin: 0 0 5px 0;
     margin-left: 90px;
     margin-top: 5px;
 }
@@ -313,7 +313,7 @@ body {
     margin-bottom: 20px;
 }
 
-.responsel-text {
+.response-text {
     font-family: "Jost", sans-serif;
     font-size: 20px;
     font-weight: 400;
