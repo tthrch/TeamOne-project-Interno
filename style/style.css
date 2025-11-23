@@ -45,7 +45,7 @@ body {
 
 .dreamInterior {
     background-image: url("../src/images/living-room.webp");
-    height: 831px;
+    height: 650px;
     background-repeat: no-repeat;
     padding-top: 188px;
 }
@@ -81,6 +81,7 @@ body {
     width: 207px;
     height: 71px;
     font-size: 18px;
+    margin-top: 35px;
 }
 
 .dreamInterior-button:hover {
@@ -97,4 +98,245 @@ body {
     background-size: contain;
     margin-top: 18px;
     margin-left: 27px;
+}
+
+.services {
+    width: 1200px;
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.service-card {
+    max-width: 320px;
+}
+
+.service-card h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    color: #292F36;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.service-card p {
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    color: #4D5053;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    font-weight: 400px;
+}
+
+.service-link {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #4D5053;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s ease;
+}
+
+.service-link:hover {
+    color: #CDA274;
+}
+
+.service-link::after {
+    content: "";
+    background-image: url("../src/icons/arrow.png");
+    width: 24px;
+    height: 17px;
+}
+
+.challengingDesigns-group {
+    width: 592px;
+    height: auto;
+    margin-left: 120px;
+}
+
+.challengingDesigns-title {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 50px;
+    width: 450px;
+}
+
+.challengingDesigns-text {
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 44px;
+}
+
+.challengingDesigns-call {
+    position: relative;
+    padding-left: 110px;
+    margin-top: 60px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.challengingDesigns-call::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    background-color: #f5f1ee;
+    background-image: url("../src/icons/call-icon.png");
+    background-size: 80px 88px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.challengingDesigns-button {
+    background-color: #292F36;
+    width: 263px;
+    height: 71px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 22px 34px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.challengingDesigns-button:hover {
+    background-color: #3a3a3a;
+}
+
+.challengingDesigns-button::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    background-image: url("../src/icons/arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 18px;
+    margin-left: 27px;
+}
+
+.challengingDesigns-img img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    display: block;
+}
+
+.challengingDesigns-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-right: 120px;
+}
+
+.challengingDesigns-img img {
+    width: 592px;
+    object-fit: cover;
+    border-top-left-radius: 200px;
+}
+
+.response {
+    background-color: #F4F0EC;
+    padding: 100px 80px;
+    border-radius: 50px;
+    margin-top: 140px;
+}
+
+.response-header h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 40px;
+    text-align: center;
+    color: #292f36;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 60px;
+}
+
+.response-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.response-card {
+    background: #fff;
+    width: 354px;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: left;
+    position: relative;
+}
+
+.responsel-img {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.response-card h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #292f36;
+     margin: 0 0 5px 0;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+.response-location {
+    font-family: "Jost", sans-serif;
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.responsel-text {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4d4d4d;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    margin-top: 140px;
+}
+
+.brands-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+.brands-block img {
+    max-height: 45px;
+    object-fit: contain;
 }
