@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* логотип Interno */
 .logo-title {
     font-family: "Romana LT Demi", serif;
@@ -20,6 +21,7 @@ body {
     background-size: contain;
     margin-right: 11px;
 }
+
 /* навігаціний список */
 .header-menu {
     position: absolute;
@@ -77,6 +79,7 @@ body {
     margin-left: 120px;
     font-size: 22px;
 }
+
 /* button */
 .dreamInterior-button {
     background-color: #292F36;
@@ -520,9 +523,9 @@ body {
     color: #292F36;
     line-height: 130%;
 }
-p
-.recentBlogs-generalText {
-    font-family:'Jost', sans-serif ;
+
+p .recentBlogs-generalText {
+    font-family: 'Jost', sans-serif;
     color: #4D5053;
     font-size: 22px;
     max-width: 550px;
@@ -542,10 +545,13 @@ p
     padding: 21px;
     text-align: left;
     position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .recent-item:hover {
-    background-color: #A8A4A0;
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .recent-img {
@@ -564,7 +570,7 @@ p
     position: absolute;
     background-color: #FFFFFF;
     border-radius: 8px 8px 8px 0px;
-    padding:9px 20px;
+    padding: 9px 20px;
     font-weight: 400;
     line-height: 24px;
     margin: 0;
@@ -837,7 +843,7 @@ p
 }
 
 .footer-column a:hover {
-    color: #CDA274; 
+    color: #CDA274;
 }
 
 .footer-bottom {
