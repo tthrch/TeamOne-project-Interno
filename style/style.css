@@ -524,7 +524,7 @@ body {
     line-height: 130%;
 }
 
-p .recentBlogs-generalText {
+.recentBlogs-generalText {
     font-family: 'Jost', sans-serif;
     color: #4D5053;
     font-size: 22px;
@@ -864,3 +864,4 @@ p .recentBlogs-generalText {
 .footer-bottom p span {
     color: #CDA274;
 }
+
