@@ -3,7 +3,6 @@ body {
     padding: 0;
 }
 
-/* логотип Interno */
 .logo-title {
     font-family: "Romana LT Demi", serif;
     display: inline-block;
@@ -22,7 +21,6 @@ body {
     margin-right: 11px;
 }
 
-/* навігаціний список */
 .header-menu {
     position: absolute;
     list-style: none;
@@ -80,7 +78,6 @@ body {
     font-size: 22px;
 }
 
-/* button */
 .dreamInterior-button {
     background-color: #292F36;
     color: #ffffff;
@@ -95,7 +92,6 @@ body {
     margin-left: 120px;
     width: 207px;
     height: 71px;
-    font-size: 18px;
     margin-top: 35px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
@@ -144,7 +140,7 @@ body {
     color: #4D5053;
     line-height: 1.6;
     margin-bottom: 24px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .service-link {
@@ -229,7 +225,7 @@ body {
     align-items: center;
     font-family: "Jost", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    border: none;
 }
 
 .challengingDesigns-button:hover {
@@ -248,13 +244,6 @@ body {
     margin-left: 27px;
 }
 
-.challengingDesigns-img img {
-    width: 100%;
-    max-width: 550px;
-    height: auto;
-    display: block;
-}
-
 .challengingDesigns-section {
     display: flex;
     align-items: center;
@@ -264,9 +253,11 @@ body {
 
 .challengingDesigns-img img {
     width: 592px;
+    height: auto;
     object-fit: cover;
     border-top-left-radius: 200px;
     margin-left: 350px;
+    display: block;
 }
 
 .response {
@@ -358,18 +349,9 @@ body {
     object-fit: contain;
 }
 
-/* ===== PROJECTS SECTION ===== */
 .projects {
     width: 100%;
     padding: 100px 20px;
-}
-
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .projects-wrapper {
@@ -412,17 +394,14 @@ body {
     margin-bottom: 30px;
 }
 
-/* Контейнер текст + стрілка */
 .project-arrow {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 100px;
-    /* місце для стрілки */
 }
 
-/* Текст один під одним */
 .project-text {
     display: flex;
     flex-direction: column;
@@ -434,7 +413,7 @@ body {
     font-size: 24px;
     color: #292F36;
     margin: 0;
-    font-weight: 200px;
+    font-weight: 400;
 }
 
 .projects-category {
@@ -444,7 +423,6 @@ body {
     margin: 0;
 }
 
-/* Стрілка */
 .project-arrow::after {
     content: "";
     position: absolute;
@@ -462,7 +440,6 @@ body {
     cursor: pointer;
 }
 
-/* ===== NUMBERS SECTION ===== */
 .numbers {
     background-color: #F4F0EC;
     padding: 80px 20px;
@@ -555,7 +532,6 @@ body {
 }
 
 .recent-img {
-    top: calc(50% - 296px/2 - 0.21px);
     width: 100%;
     height: 300px;
     background: #FFFFFF;
@@ -590,8 +566,6 @@ body {
 .recent-date {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: relative;
     align-items: center;
     font-size: 16px;
     color: #4D5053;
@@ -660,7 +634,7 @@ body {
     align-items: center;
     gap: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    transition: 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 .connect-btn:hover {
@@ -790,21 +764,35 @@ body {
 .footer-about {
     flex: 2;
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .footer-logo {
     font-size: 40px;
     font-family: 'DM Serif Display', serif;
     color: #292F36;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
     font-weight: 400;
+    margin-top: 0;
+}
+
+.footer-logo::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../src/icons/before-logo.png");
+    background-size: contain;
+    margin-right: 11px;
 }
 
 .footer-socials {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .social-icon {
@@ -850,7 +838,7 @@ body {
     margin-top: 50px;
     text-align: center;
     padding: 35px 0;
-    border-top: 50px;
+    border-top: 1px solid #E7E7E7;
 }
 
 .footer-bottom p {
@@ -864,4 +852,3 @@ body {
 .footer-bottom p span {
     color: #CDA274;
 }
-
