@@ -9,18 +9,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <link rel="stylesheet" href="style/style.css" />
-    <!-- шрифти: -->
-    <!-- шрифт Romana LT Demi -->
     <link
       href="https://db.onlinewebfonts.com/c/051fda877cf796362da7cd6afd75356b?family=Romana+LT+Demi"
       rel="stylesheet"
     />
-    <!-- шрифт Jost -->
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <!-- шрифт DM Serif Display -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,9 +36,7 @@
           <li><a href="#">Pages</a></li>
           <li><a href="#">Contact Us</a></li>
           <li>
-            <a class="switchTheme-menu" onclick="toggleTheme()" href="#"
-              >theme</a
-            >
+            <button class="switchTheme-menu" onclick="toggleTheme()" aria-label="Toggle theme">theme</button>
           </li>
         </ul>
       </nav>
@@ -118,7 +112,7 @@
               alt=""
               class="response-img"
             />
-            <h3>Lisa Clairton</h3>
+            <p class="response-name">Lisa Clairton</p>
             <p class="response-location">New York, USA</p>
             <p class="response-text">
               We selected Interno interior because of rigorous design background
@@ -132,7 +126,7 @@
               alt=""
               class="response-img"
             />
-            <h3>David Knight</h3>
+            <p class="response-name">David Knight</p>
             <p class="response-location">Sydney, Australia</p>
             <p class="response-text">
               The team exceeded our expectations and emerged as leaders of our
@@ -146,7 +140,7 @@
               alt=""
               class="response-img"
             />
-            <h3>Lisa Clairton</h3>
+            <p class="response-name">Lisa Clairton</p>
             <p class="response-location">Paris, France</p>
             <p class="response-text">
               They balanced the architectural vision and the project realities
@@ -189,6 +183,7 @@
                   <h3 class="projects-name">Winery Dry Creek Building</h3>
                   <p class="projects-category">Art Modern</p>
                 </div>
+                <a href="#" class="project-link" aria-label="View project details"></a>
               </div>
             </article>
 
@@ -204,6 +199,7 @@
                   <h3 class="projects-name">Creative Workplace Design</h3>
                   <p class="projects-category">Minimalist</p>
                 </div>
+                <a href="#" class="project-link" aria-label="View project details"></a>
               </div>
             </article>
 
@@ -219,6 +215,7 @@
                   <h3 class="projects-name">Bedroom Interior Pot Work</h3>
                   <p class="projects-category">Modern</p>
                 </div>
+                <a href="#" class="project-link" aria-label="View project details"></a>
               </div>
             </article>
 
@@ -234,6 +231,7 @@
                   <h3 class="projects-name">Light Ambience Septa Design</h3>
                   <p class="projects-category">Scandinavian</p>
                 </div>
+                <a href="#" class="project-link" aria-label="View project details"></a>
               </div>
             </article>
           </div>
@@ -357,6 +355,7 @@
           </div>
         </div>
       </section>
+    </main>
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-column footer-about">
@@ -364,16 +363,16 @@
       <p>We are the leading architect and interior design firm in the world.</p>
       <div class="footer-socials">
               <a href="#" class="social-icon">
-                <img src="./src/icons/facebook.png" alt="Facebook" />
+                <img src="./src/icons/facebook.png" alt="Link to Facebook page" />
               </a>
               <a href="#" class="social-icon">
-                <img src="./src/icons/twitter.png" alt="Twitter" />
+                <img src="./src/icons/twitter.png" alt="Link to Twitter page" />
               </a>
               <a href="#" class="social-icon">
-                <img src="./src/icons/in.png" alt="LinkedIn" />
+                <img src="./src/icons/in.png" alt="Link to In page" />
               </a>
               <a href="#" class="social-icon">
-                <img src="./src/icons/instagram.png" alt="Instagram" />
+                <img src="./src/icons/instagram.png" alt="Link to Instagram page" />
               </a>
       </div>
     </div>
